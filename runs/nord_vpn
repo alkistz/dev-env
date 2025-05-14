@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "Installing NordVPN"
+
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) -p nordvpn-gui
