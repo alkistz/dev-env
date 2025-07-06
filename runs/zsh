@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Installing zsh"
+echo "Installing zsh and oh my zsh"
 
 sudo dnf install zsh -y
 
