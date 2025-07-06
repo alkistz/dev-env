@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+echo "Installing Tidal"
+
+flatpak install flathub com.mastermindzh.tidal-hifi -y
