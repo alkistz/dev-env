@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+echo "Installing Docker Desktop"
+
+# Install Docker Desktop
+wget https://desktop.docker.com/linux/main/amd64/docker-desktop-x86_64.rpm
+
+sudo dnf install ./docker-desktop-x86_64.rpm -y
+
+rm docker-desktop-x86_64.rpm 
