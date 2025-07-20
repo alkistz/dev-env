@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "Installing vlc media player"
+
+sudo dnf install vlc -y
+
